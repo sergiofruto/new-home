@@ -1,0 +1,24 @@
+.waiting {
+	height:1080px;
+	width:1920px;
+	background-image:url("/dota-player/images/waiting.jpg");
+}
+
+.radiant {
+	background-image:url("/dota-player/images/radiant.jpg");
+}
+
+.dire {
+	background:url("/dota-player/images/dire.jpg");
+}
+
+.data {
+	float:left;
+	font-size:40px;
+	font-family:Sans-sarif;
+	text-align:center;
+	color:white;
+	width:55%;
+}
+
+
