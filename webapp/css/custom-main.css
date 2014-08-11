@@ -1,0 +1,20 @@
+.navbar-inverse{
+	background:#FFFFFF;
+}
+
+#head{
+	background:#181015 url( ../images/header.jpg) no-repeat;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.nav.navbar-nav.pull-right{
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
