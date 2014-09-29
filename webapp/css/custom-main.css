@@ -82,3 +82,29 @@
 	display: inline;
 }
 
+.icon-container{
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+}
+
+.icon-container.fechas{
+	background: url(http://i.imgur.com/Q9Bvbbq.png);
+}
+
+.icon-container.lugar{
+	background: url(http://i.imgur.com/77vKzS2.png);
+}
+
+.icon-container.equipos{
+	background: url(http://i.imgur.com/T24gnP3.png);
+}
+
+.icon-container.partidas{
+	background: url(http://i.imgur.com/YOXqqkx.png);
+}
+
+.icon-container.premios{
+	background: url(http://i.imgur.com/jLAJK43.png);
+}
+
