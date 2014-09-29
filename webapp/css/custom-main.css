@@ -1,20 +1,84 @@
 .navbar-inverse{
-	background:#FFFFFF;
+	background:#2574A9;
+	opacity:0.9;
 }
 
 #head{
 	background:#181015 url( ../images/header.jpg) no-repeat;
+	height: 400px;
+	padding-top: 120px;
+	min-height: 440px;
 }
 
-h2{
-	font-size: 30px;
+.container h2{
+	font-size: 26px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+#head .container{
+	height: 80px;
 }
 
 .nav.navbar-nav.pull-right{
+	height: 80px;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
 }
+
+.nav.navbar-nav.pull-right a{
+	color:#FFFFFF;
+}
+
+.header-logo{
+	height: 170px;
+}
+
+.lead img{
+	height: 40px;
+	margin-top: 10px;
+}
+
+.navbar-brand{
+	height: 80px;
+	width: 80px;
+}
+
+.navbar-header{
+	height:80px;
+}
+
+#shortcuts h2{
+	text-align: center;
+	color: #2574A9;
+	font-weight: normal;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	padding-top: 10px;
+
+}
+
+#shortcuts h3{
+	text-align: center;
+}
+.icons-list{
+	list-style-type: none;
+	text-align: center;
+}
+
+.icons-list li{
+	display: inline;
+}
+
+.icons-list img{
+	display: inline;
+}
+.icons-list p{
+	display: inline;
+}
+
