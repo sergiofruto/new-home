@@ -55,16 +55,17 @@
 	height:80px;
 }
 
-#shortcuts h2{
+.shortcuts-section h2{
 	text-align: center;
 	color: #2574A9;
 	font-weight: normal;
 	letter-spacing: 2px;
 	word-spacing: 4px;
 	padding-top: 30px;
+	font-size: 22px;
 }
 
-#shortcuts h3{
+.shortcuts-section h3{
 	text-align: center;
 	color: #596467;
 	font-size: 18px;
@@ -85,6 +86,7 @@
 	display: inline;
 	color: #596467;
 	font-weight: bold;
+	margin: 0;
 }
 
 .icons-list p:hover{
@@ -95,11 +97,20 @@
 
 .icons-list a{
 	text-decoration: none;
+	display: block;
+}
+
+.icons-list li{
+	display: inline-block;
+	width: 20%;
+	margin-left: -4px;
+
 }
 .icon-container{
 	height: 75px;
 	width: 75px;
-	display: inline-block;
+	display: block;
+	margin: 0 auto;
 }
 
 .icon-container.fechas{
@@ -140,4 +151,29 @@
 
 .icon-container.premios:hover{
 	background: url(http://i.imgur.com/RGmasFW.png);
+}
+
+.fechas-header{
+	height: 60px;
+	width: 1170px;
+	background: #2574A9;
+}
+
+.title{
+	text-align: center;
+	font-weight:bold;
+	font-size: 20px;
+	padding-top: 20;
+}
+
+.fechas-header p{
+	color: #FFFFFF;
+}
+
+.etapa-online{
+	float: left;
+}
+
+.etapa-presencial{
+	float:right;
 }
