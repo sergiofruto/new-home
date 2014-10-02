@@ -161,6 +161,7 @@
 
 .fechas-section .container{
 width: 100%;
+margin: 0 auto;
 }
 .fechas-section .container .fechas-header{
 width: 100%;
@@ -169,7 +170,7 @@ width: 100%;
 .fechas-content{
 	width: 100%;
 	height: 300px;
-	background: #F4F2EF;
+	background:url(http://i.imgur.com/iE4s8xD.jpg);
 	padding-top: 55px;
 }
 
@@ -226,4 +227,42 @@ width: 100%;
 .etapa-content{
 	width: 330px;
 	margin: 0 auto;
+}
+
+.lugar-section .container{
+width: 100%;
+}
+
+.lugar-header{
+	height: 60px;
+	width: 100%;
+	background: #FFFFFF;
+	color: #2574A9;
+}
+
+.lugar-content{
+	width: 100%;
+	height: 600px;
+}
+
+.lugar-foto{
+	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
+	height: 300px;
+}
+
+.lugar-foto img{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.direccion{
+	width: 300px;
+	height: 50px;
+	border: 3px solid #FFFFFF;
+	border-radius: 3px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
 }
