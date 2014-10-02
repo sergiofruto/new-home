@@ -159,21 +159,71 @@
 	background: #2574A9;
 }
 
+.fechas-section .container{
+width: 100%;
+}
+.fechas-section .container .fechas-header{
+width: 100%;
+}
+
+.fechas-content{
+	width: 100%;
+	height: 300px;
+	background: #F4F2EF;
+	padding-top: 55px;
+}
+
+.etapa-content img{
+	display: inline;
+}
+
 .title{
 	text-align: center;
 	font-weight:bold;
 	font-size: 20px;
-	padding-top: 20;
+	padding-top: 15px;
 }
 
 .fechas-header p{
 	color: #FFFFFF;
 }
 
-.etapa-online{
+.etapa-left{
+	float: left;
+	width: 50%;
+}
+
+.etapa-right{
+	float:right;
+	width: 50%;
+	margin:0 auto;
+}
+
+.etapa-title{
+	font-weight: bold;
+	color:#2574A9;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.fechas-list li p{
+	font-weight: bold;
+	color:#2574A9;
+	font-size: 14px;
+}
+
+.fechas-list li ul li{
+	font-weight: bold;
+	color:#596467;
+	list-style-type: none;
+}
+
+.fechas-content img{
+	width: 45px;
 	float: left;
 }
 
-.etapa-presencial{
-	float:right;
+.etapa-content{
+	width: 300px;
+	margin: 0 auto;
 }
