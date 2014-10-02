@@ -76,6 +76,7 @@
 .icons-list{
 	list-style-type: none;
 	text-align: center;
+	padding-bottom: 25px;
 }
 
 .icons-list li{
@@ -153,18 +154,22 @@
 	background: url(http://i.imgur.com/RGmasFW.png);
 }
 
-.fechas-header{
+/*.fechas-header{
 	height: 60px;
 	width: 1170px;
 	background: #2574A9;
-}
+}*/
 
 .fechas-section .container{
 width: 100%;
 margin: 0 auto;
 }
-.fechas-section .container .fechas-header{
-width: 100%;
+
+.section-header{
+	width: 100%;
+	height: 60px;
+	background: #2574A9;
+	color: #FFFFFF;
 }
 
 .fechas-content{
@@ -183,10 +188,6 @@ width: 100%;
 	font-weight:bold;
 	font-size: 20px;
 	padding-top: 15px;
-}
-
-.fechas-header p{
-	color: #FFFFFF;
 }
 
 .etapa-left{
@@ -233,27 +234,20 @@ width: 100%;
 width: 100%;
 }
 
-.lugar-header{
-	height: 60px;
-	width: 100%;
+.lugar-section .section-header{
 	background: #FFFFFF;
 	color: #2574A9;
 }
 
 .lugar-content{
 	width: 100%;
-	height: 600px;
+	height: 300px;
 }
 
 .lugar-foto{
 	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
 	height: 300px;
 	background-size: cover;
-}
-
-.lugar-foto img{
-	width: 300px;
-	margin: 0 auto;
 }
 
 .direccion{
@@ -280,3 +274,53 @@ width: 100%;
 	text-decoration: none;
 	border: 3px solid #2574A9; 
 }
+
+.equipos-section .container{
+width: 100%;
+}
+
+.container{
+	margin-bottom: 0px;
+}
+
+.equipos-foto{
+	background: url(http://i.imgur.com/4wocNI4.png) no-repeat;
+	height: 300px;
+	background-size: cover;
+}
+
+.inscripcion{
+	padding-top: 110px;
+}
+
+.inscripcion-message{
+	width: 350px; 
+	height: 50px; 
+	border-radius: 3px; 
+	margin: 0 auto; 
+	color: #FFFFFF; 
+	font-size: 18px; 
+	text-align: center; 
+	padding-top: 10px;
+	margin-bottom: 10px; 
+	box-sizing: border-box; 
+	display: block;
+	background: rgba(37,116,169,0.75);
+}
+
+.inscripcion a{
+	width: 200px; 
+	height: 50px; 
+	border: 3px solid #2574A9; 
+	border-radius: 3px; 
+	margin: 0 auto; 
+	font-size: 18px; 
+	text-align: center; 
+	padding-top: 8px; 
+	box-sizing: border-box; 
+	display: block;
+	color: #FFFFFF;
+	background: #2574A9;
+	text-decoration: none;
+}
+
