@@ -248,6 +248,7 @@ width: 100%;
 .lugar-foto{
 	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
 	height: 300px;
+	background-size: cover;
 }
 
 .lugar-foto img{
