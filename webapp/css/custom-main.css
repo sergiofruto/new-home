@@ -500,6 +500,8 @@ footer .credits p{
 	background-size: cover;
 	width: 200px;
 	height: 40px;
+	line-height: 39px;
+	margin: 0 auto 18px auto;
 
 }
 
