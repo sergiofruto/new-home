@@ -215,6 +215,11 @@ margin: 0 auto;
 	font-size: 14px;
 }
 
+.fechas-list{
+	padding: 10px 0 0 38px;
+	 list-style: none
+}
+
 .fechas-list li ul li{
 	font-weight: bold;
 	color:#596467;
