@@ -511,5 +511,8 @@ footer .credits p{
 	font-style: italic;
 	font-size: 35px;
 	letter-spacing: 3px;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 0;
 }
 
