@@ -452,24 +452,54 @@ footer .credits p{
 .premios-section .datos{
 	width: 40%;
 	float: left;
-	padding-top: 40px;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.premios-section .datos p{
+	padding-left: 22px;
 }
 
 .premios-section .pozo{
 	width: 20%;
 	float: left;
-	padding-top: 40px;
+	padding-top: 50px;
+	text-align: center;
 }
 
 .premios-section .donde-comprar{
 	width: 40%;
 	float: left;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 .premios-section .list-title{
 	color: #2574A9;
 	font-size: 20px;
 	font-weight: 500;
+}
+
+.premios-section li{
+	color: #2574A9;
+	font-weight: 500;
+	width: 300px;
+	padding-bottom: 20px;
+}
+
+.pozo .small-text{
+	color: #777;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.valor-pozo{
+	background: url(http://i.imgur.com/e48ncBP.jpg);
+	background-size: cover;
+	height: 40px;
+	color: #2574A9;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 35px;
+	letter-spacing: 3px;
 }
 
