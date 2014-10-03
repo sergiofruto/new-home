@@ -358,6 +358,48 @@ footer .main-footer{
 	background: #232323;
 }
 
+.main-footer .social{
+	width: 50%;
+	height: 150px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: -150px;
+}
+
+.main-footer .social p{
+	color: white;
+	font-family: Open Sans;
+	letter-spacing: 2px;
+}
+.main-footer .social ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-footer .social ul li img{
+	width: 50px;
+}
+
+.main-footer .giant-rocket{
+	width: 50%;
+	height: 150px;
+	float: right;
+	text-align: center;
+	padding-top: 30px;
+	margin-right: -110px;
+}
+
+.main-footer .giant-rocket li{
+	list-style: none;
+}
+
+.main-footer .giant-rocket p{
+	font-size: 12px;
+	color: white;
+}
+
 footer .credits{
 	height: 50px;
 	background:#191919;
@@ -367,6 +409,10 @@ footer .credits p{
 	color: #777;
 	padding-left: 8px;
 	font-size: 12px;
+}
+
+*{
+	font-family: Open Sans;
 }
 
 
