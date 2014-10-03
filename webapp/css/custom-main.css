@@ -447,8 +447,6 @@ footer .credits p{
 	font-size: 12px;
 }
 
-
-
 .premios-section .datos{
 	width: 40%;
 	float: left;
@@ -471,6 +469,11 @@ footer .credits p{
 	width: 40%;
 	float: left;
 	padding-top: 50px;
+	padding-left: 80px;
+}
+
+.premios-section p{
+	padding-left: 20px;
 }
 
 .premios-section .list-title{
@@ -487,15 +490,20 @@ footer .credits p{
 }
 
 .pozo .small-text{
-	color: #777;
-	font-size: 11px;
-	font-weight: bold;
+	color: #878d91;
+	font-size: 13px;
+	font-weight: 500;
 }
 
 .valor-pozo{
 	background: url(http://i.imgur.com/e48ncBP.jpg);
 	background-size: cover;
+	width: 200px;
 	height: 40px;
+
+}
+
+.valor-pozo p{
 	color: #2574A9;
 	font-weight: bold;
 	font-style: italic;
