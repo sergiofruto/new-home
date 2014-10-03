@@ -214,7 +214,9 @@ margin: 0 auto;
 	color:#2574A9;
 	font-size: 14px;
 	position: relative;
+	margin: 0;
 }
+
 
 .fechas-list li p.head:before{
 	content: '';
@@ -236,6 +238,11 @@ margin: 0 auto;
 	font-weight: bold;
 	color:#596467;
 	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.fechas-list .head{
+	margin:0;
 }
 
 .fechas-content img{
@@ -440,5 +447,18 @@ footer .credits p{
 	font-family: Open Sans;
 }
 
+.premios-section .datos{
+	width: 40%;
+	float: left;
+}
 
+.premios-section .pozo{
+	width: 20%;
+	float: left;
+}
+
+.premios-section .donde-comprar{
+	width: 40%;
+	float: left;
+}
 
