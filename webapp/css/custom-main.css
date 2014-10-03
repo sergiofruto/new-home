@@ -213,6 +213,18 @@ margin: 0 auto;
 	font-weight: bold;
 	color:#2574A9;
 	font-size: 14px;
+	position: relative;
+}
+
+.fechas-list li p.head:before{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 4px;
+	left: -20px;
+	background-color: #2574A9;
+	border-radius: 50%;
 }
 
 .fechas-list{
