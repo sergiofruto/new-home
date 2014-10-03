@@ -453,7 +453,7 @@ footer .credits p{
 .premios-section .datos{
 	width: 40%;
 	float: left;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-left: 100px;
 }
 
@@ -464,14 +464,14 @@ footer .credits p{
 .premios-section .pozo{
 	width: 20%;
 	float: left;
-	padding-top: 50px;
+	padding-top: 30px;
 	text-align: center;
 }
 
 .premios-section .donde-comprar{
 	width: 40%;
 	float: left;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-left: 80px;
 }
 
@@ -514,5 +514,6 @@ footer .credits p{
 	font-style: italic;
 	font-size: 35px;
 	letter-spacing: 3px;
+	padding-left: 0px;
 }
 
