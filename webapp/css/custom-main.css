@@ -259,13 +259,21 @@ width: 100%;
 
 .lugar-content{
 	width: 100%;
-	height: 300px;
 }
 
 .lugar-foto{
 	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
 	height: 300px;
 	background-size: cover;
+}
+
+.lugar-content .map{
+	width: 100%;
+	height: 200px;
+}
+
+.lugar-content .map .map-frame{
+	height: 200px;
 }
 
 .direccion{
