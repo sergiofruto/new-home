@@ -1,3 +1,7 @@
+*{
+	font-family: Open Sans;
+}
+
 .navbar-inverse{
 	background:#2574A9;
 	opacity:0.9;
@@ -443,22 +447,29 @@ footer .credits p{
 	font-size: 12px;
 }
 
-*{
-	font-family: Open Sans;
-}
+
 
 .premios-section .datos{
 	width: 40%;
 	float: left;
+	padding-top: 40px;
 }
 
 .premios-section .pozo{
 	width: 20%;
 	float: left;
+	padding-top: 40px;
 }
 
 .premios-section .donde-comprar{
 	width: 40%;
 	float: left;
+	padding-top: 40px;
+}
+
+.premios-section .list-title{
+	color: #2574A9;
+	font-size: 20px;
+	font-weight: 500;
 }
 
