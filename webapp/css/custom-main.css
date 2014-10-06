@@ -270,21 +270,34 @@ width: 100%;
 
 .lugar-content{
 	width: 100%;
+	float: left;
 }
 
 .lugar-foto{
-	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
+	width: 100%;
 	height: 300px;
+	display: block;
+	background: url(http://i.imgur.com/JueusRe.jpg) no-repeat;
 	background-size: cover;
 }
 
 .lugar-content .map{
 	width: 100%;
 	height: 250px;
+	float: left;
 }
 
 .lugar-content .map .map-frame{
 	height: 250px;
+}
+
+.lugar-content .map .map-frame .overlay{
+	width: 100%;
+	height: 250px;
+	background:transparent; 
+   	position:relative; 
+   	top: 250px;
+   	margin-top: -250px;
 }
 
 .direccion{
