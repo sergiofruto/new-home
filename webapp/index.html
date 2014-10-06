@@ -40,11 +40,11 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="">Fechas</a></li>
-					<li><a href="">Lugar</a></li>
-					<li><a href="">Equipos</a></li>
-					<li><a href="">Premios</a></li>
-					<li><a href="http://giantrocket.com.ar/team">Inscripción al torneo</a></li>
+					<li><a class="dates-ref" href="">Fechas</a></li>
+					<li><a class="places-ref" href="">Lugar</a></li>
+					<li><a class="teams-ref" href="">Equipos</a></li>
+					<li><a class="prize-ref" href="">Premios</a></li>
+					<li><a href="/team">Inscripción al torneo</a></li>
 					<!--<li><a href="">Torneos Anteriores</a></li>
 					<li><a href="">Quienes Somos</a></li>
 					<li><a href="">Preguntas Frecuentes</a></li>-->
@@ -71,16 +71,16 @@
 			</div>
 			<div class="shortcut-icons">
 				<ul class="icons-list">
-					<li><a href=""> <div class="icon-container fechas"></div> <p>FECHAS<p> </a></li>
-					<li><a href=""> <div class="icon-container lugar"></div><p>LUGAR<p> </a></li>
-					<li><a href=""> <div class="icon-container equipos"></div><p>EQUIPOS<p> </a></li>
+					<li><a class="dates-ref" href=""> <div class="icon-container fechas"></div> <p>FECHAS<p> </a></li>
+					<li><a class="places-ref" href=""> <div class="icon-container lugar"></div><p>LUGAR<p> </a></li>
+					<li><a class="teams-ref" href=""> <div class="icon-container equipos"></div><p>EQUIPOS<p> </a></li>
 					<!--<li><a href=""> <div class="icon-container partidas"></div><p>PARTIDAS<p> </a></li>-->
-					<li><a href=""> <div class="icon-container premios"></div><p>PREMIOS<p> </a></li>
+					<li><a class="prize-ref"  href=""> <div class="icon-container premios"></div><p>PREMIOS<p> </a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="fechas-section">
+	<div id="dates-section" class="fechas-section">
 		<div class="container">
 			<div class="row">
 				<div class="section-header">
@@ -140,7 +140,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="lugar-section">
+	<div id="places-section" class="lugar-section">
 		<div class="container">
 			<div class="row">
 				<div class="section-header">
@@ -162,7 +162,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="equipos-section">
+	<div id="teams-section" class="equipos-section">
 		<div class="container">
 			<div class="row">
 				<div class="section-header">
@@ -180,7 +180,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="premios-section">
+	<div id="prize-section" class="premios-section">
 		<div class="container">
 			<div class="row">
 				<div class="section-header">
@@ -237,8 +237,38 @@
 			<p>Copyright © 2014, Giant Rocket. Designed and coded with love by @marcosreves, @iumaycallmev, @emecibelli and @sergiofruto.</p>
 		</div>
 	</footer>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<!-- Google Maps -->
     <script src="http://maps.googleapis.com/maps/api/js?v=3.14&(KEY=****)&sensor=false"></script>
-    <script src="assets/js/google-map.js"></script>
+    <script src="/js/google-map.js"></script>
+    <script src="/js/jquery.scrollTo.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.dates-ref').click(function(e){
+			e.preventDefault();
+			$('body').scrollTo($('#dates-section'));
+		});
+		
+		$('.places-ref').click(function(e){
+			e.preventDefault();
+			$('body').scrollTo($('#places-section'));
+		});
+		
+		$('.prize-ref').click(function(e){
+			e.preventDefault();
+			$('body').scrollTo($('#prize-section'));
+		});
+		
+		$('.games-ref').click(function(e){
+			e.preventDefault();
+			$('body').scrollTo($('#games-section'));
+		});
+		
+		$('.teams-ref').click(function(e){
+			e.preventDefault();
+			$('body').scrollTo($('#teams-section'));
+		});
+	});
+	</script>
 </body>	
 </html>
