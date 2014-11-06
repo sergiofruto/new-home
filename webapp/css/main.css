@@ -193,6 +193,40 @@ img.pull-left { margin-right: 10px; }
 
 .event-detail-box:hover h4, .event-detail-box:hover .fa-5{ color: #2980b9; }
 
+/*TEAM PAGE STYLES*/
+.teams-section .team-card{
+	width: 80%;
+}
+
+.teams-section .team-card h3{
+	width: 100%;
+	background-color: #2574A9;
+	padding: 10px 0;
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.teams-section .team-card ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.teams-section .team-card ul .column{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -3px;
+	text-align: center;
+}
+
+.teams-section .team-card ul .column li:first-child{
+	text-transform: uppercase;
+	color: gray;
+	font-weight: bold;
+	text-align: center;
+}
 
 /* Footer */
 footer#footer .container {
