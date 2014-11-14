@@ -196,6 +196,8 @@ img.pull-left { margin-right: 10px; }
 /*TEAM PAGE STYLES*/
 .teams-section .team-card{
 	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 5%;
 }
 
 .teams-section .team-card h3{
@@ -206,6 +208,7 @@ img.pull-left { margin-right: 10px; }
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
+	margin-bottom: 25px;
 }
 
 .teams-section .team-card ul{
@@ -226,6 +229,16 @@ img.pull-left { margin-right: 10px; }
 	color: gray;
 	font-weight: bold;
 	text-align: center;
+}
+
+.teams-section .team-card .playerColumn span,
+.teams-section .team-card .suplenteColumn span{
+	color: #0075AB;
+}
+
+.teams-section .team-card .playerColumn b,
+.teams-section .team-card .suplenteColumn b{
+	color: #9E9E9E;
 }
 
 /* Footer */
