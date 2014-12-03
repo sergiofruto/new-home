@@ -278,4 +278,66 @@ footer#footer .container {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 	.container{ margin-bottom: 20px;}
-	}		
+}
+
+
+
+/*fixture 2.0 styles*/
+
+.fixture-wrapper{
+	width: 920px;
+	height: 800px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}		
+
+.fixture-wrapper .fixture-block{
+	width: 920px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
+
+.fixture-wrapper .fixture-block .match{
+	display: block;
+	position: absolute;
+	width: calc( 33% - 20px );
+	height: 60px;
+	top: 0;
+	left: 0;
+	background-image: url(http://www.esl-one.com/fileadmin/templates/propage2/eslone_v1/images/bracket_doubleslot_bg.png);
+	background-size: cover;
+}
+
+.fixture-wrapper .fixture-block .match .teams{
+	width: 80%;
+	height: 60px;
+	display: block;
+	background-position: center;
+	background-image: url(http://www.esl-one.com/fileadmin/templates/propage2/eslone_v1/images/bracket_doubleslot_contestants_bg.png);
+}
+
+.fixture-wrapper .fixture-block .match .scores{
+	width: 20%;
+	height: 60px;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-left: 1px dashed rgba(0, 204, 252, 0.22);
+}
+
+.fixture-wrapper .fixture-block .match .teams .team{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	font-family: 'open-sans', times;
+	font-size: 16px;
+	font-weight: 200;
+	text-transform: none;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
