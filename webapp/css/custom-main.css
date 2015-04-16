@@ -60,6 +60,27 @@
 	height:80px;
 }
 
+.gtl-seccion{
+	position: relative;
+}
+
+.gtl-seccion img{
+	margin: 0 auto;
+	width: 100%;
+	/* max-width: 1200px; */
+	display: block;
+}
+
+.gtl-seccion a.btn{
+	position: absolute;
+	display: block;
+	max-width: 100px;
+	position: absolute;
+	bottom: 3.5em;
+	left: 50%;
+	margin-left: -50px;
+}
+
 .shortcuts-section h2{
 	text-align: center;
 	color: #2574A9;
@@ -179,7 +200,7 @@ margin: 0 auto;
 
 .fechas-content{
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	background:url(http://i.imgur.com/iE4s8xD.jpg);
 	padding-top: 40px;
 }
@@ -511,10 +532,8 @@ footer .credits p{
 }
 
 .valor-pozo{
-	background: url(http://i.imgur.com/e48ncBP.jpg);
 	background-size: cover;
 	width: 200px;
-	height: 40px;
 	line-height: 39px;
 	margin: 0 auto 18px auto;
 
