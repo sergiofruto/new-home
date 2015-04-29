@@ -688,6 +688,12 @@ footer .credits p{
 	}
 }
 
+.fixture-section .matchs-wrapper{
+	background-color: #111;
+	background-color: black;
+  	color: white;
+}
+
 .fixture-section .round-col{
 	width: 20%;
 	display: inline-block;
@@ -697,12 +703,31 @@ footer .credits p{
 	position: relative;
 }
 
+.fixture-section .match-row{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	margin: 15px 0;
+}
+
 .fixture-section .second-round-col{
 	margin-left: 35px;
 }
 
+.fixture-section .second-round-col .match-row{
+	margin: 0;
+}
+
 .fixture-section .second-round-col .match-box{
-	margin-top: 45px;
+	margin: 63.5px 0;
+}
+
+.fixture-section .third-round-col{
+	margin-left: 35px;
+}
+
+.fixture-section .third-round-col .match-box{
+	margin: 154px 0;
 }
 
 .fixture-section .matchs-wrapper{
@@ -715,14 +740,19 @@ footer .credits p{
 	height: 88px;
 	top: 46px;
 	right: -20px;
-	background-color: rgba(0, 204, 252, 0.22);
+	background-color: rgba(0, 204, 252, 0.6);
+}
+
+.fixture-section .conector.r2-conector{
+	height: 210px;
+	top: 105px;
 }
 
 .fixture-section .match-box{
 	width: 100%;
 	/*width: calc( 20% - 20px );*/
-	background: #fff;
-	border: 1px solid rgba(0, 204, 252, 0.22);
+	/*background: #fff;*/
+	border: 1px solid rgba(0, 204, 252, 0.6);
 	margin: 5px 0;
 	position: relative;
 }
@@ -731,21 +761,19 @@ footer .credits p{
 
 }
 
-.fixture-section .match-box.round-1:after{
+.fixture-section .match-box:after{
 	content: '';
 	position: absolute;
 	top: 50%;
 	right: -20px;
 	width: 20px;
 	height: 1px;
-	background-color: rgba(0, 204, 252, 0.22);
+	background-color: rgba(0, 204, 252, 0.6);
 }
 
 .fixture-section .match-box.round-2{
-	/*position: absolute;
-	left: calc(20% + 18px);
- 	top: 40px;*/
  	width: 100%;
+ 	display: inline-block;
 }
 
 .fixture-section .match-box.round-2:before{
@@ -755,7 +783,7 @@ footer .credits p{
 	left: -20px;
 	width: 20px;
 	height: 1px;
-	background-color: rgba(0, 204, 252, 0.22);
+	background-color: rgba(0, 204, 252, 0.6);
 }
 
 .fixture-section .match-box .teams{
@@ -763,7 +791,7 @@ footer .credits p{
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	background: #fff url(http://cdn2.esl.tv/fileadmin/templates/propage2/eslone_v1/images/bracket_doubleslot_contestants_bg.png);
+	background: url(http://cdn2.esl.tv/fileadmin/templates/propage2/eslone_v1/images/bracket_doubleslot_contestants_bg.png);
 	background-position: center center;
 }
 
@@ -774,7 +802,7 @@ footer .credits p{
 	text-align: center;
 	margin-left: -4px;
 	vertical-align: top;
-	border-left: 1px dashed rgba(0, 204, 252, 0.22);
+	border-left: 1px dashed rgba(0, 204, 252, 0.6);
 }
 
 .fixture-section .match-box .scores .score-1,
